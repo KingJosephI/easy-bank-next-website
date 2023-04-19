@@ -31,10 +31,15 @@
 }
 
 .hero {
-  background-image: url('./images/bg-intro-desktop.svg');
+  /* background-image: url('./images/bg-intro-desktop.svg');
   background-repeat: no-repeat;
   background-size: 1100px;
-  background-position: top -200px right -300px;
+  background-position: top -200px right -300px;  */
+
+    background-image: url('./images/bg-intro-mobile.svg');
+      background-repeat: no-repeat;
+      background-size: 100%;
+ 
 }
 
 .mockup {
@@ -42,8 +47,14 @@
 }
 
 
-@media screen and (width<=480px){
+@media screen and (width>=967px){
   .hero {
-    background-image: url('./images/bg-intro-mobile.svg');
+    /* background-image: url('./images/bg-intro-mobile.svg');
+    background-repeat: no-repeat;
+    background-size: 100%; */
+  background-image: url('./images/bg-intro-desktop.svg');
+    /* background-repeat: no-repeat; */
+    background-size: 1100px;
+    background-position: top -200px right -300px;
   }
 }

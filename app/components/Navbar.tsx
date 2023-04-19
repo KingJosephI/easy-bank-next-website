@@ -5,7 +5,7 @@ import logo from "../images/logo.svg";
 const Navbar = () => {
   return (
     <nav
-      className={`fixed z-10 w-full  px-12 bg-white mx-auto flex h-16 items-center justify-between  md:px-24 lg:px-40`}
+      className={`sticky z-10 w-full  px-12 bg-white mx-auto flex h-16 items-center justify-between  md:px-24 lg:px-40`}
     >
       <div>
         <Image src={logo} alt="logo" width={139} height={20} />
