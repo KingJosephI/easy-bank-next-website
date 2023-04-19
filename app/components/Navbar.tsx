@@ -6,15 +6,18 @@ import logo from "../images/logo.svg";
 
 const Navbar = () => {
   const [isVisible, setIsVisible] = useState(false);
-  const [windowSize, setWindowSize] = useState(window.innerWidth);
+  // const value = window !== undefined ? window?.innerWidth : 0;
+  const [windowSize, setWindowSize] = useState(0);
 
   const displayMobileMenu = () => {
     setIsVisible(!isVisible);
   };
 
   useEffect(() => {
-    window.addEventListener("resize", () => {
-      setWindowSize(window.innerWidth);
+    setWindowSize(window?.innerWidth);
+
+    window?.addEventListener("resize", () => {
+      setWindowSize(window?.innerWidth);
     });
     if (windowSize >= 480) {
       setIsVisible(false);
