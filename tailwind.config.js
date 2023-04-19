@@ -23,6 +23,12 @@ module.exports = {
         green: "#30C88F",
         blue: "#2D314D",
         gray: "#9597A5",
+        whiteSmoke: "#f2F2F2",
+      },
+      fontSize: {
+        small: "10px",
+        regular: "13px",
+        titleArticle: "16px",
       },
     },
   },

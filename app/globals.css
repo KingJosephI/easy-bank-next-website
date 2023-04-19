@@ -2,6 +2,17 @@
 @tailwind components;
 @tailwind utilities;
 
+.menu__item {
+ cursor: pointer ;
+ color: #9597A5; 
+}
+
+.menu__item:hover {
+  color: #2D314D;
+  border-bottom: 4px solid;
+  border-image-slice: 1 ;
+  border-image-source: linear-gradient(135deg, #33D35E 0%, #2AB6D9 99.58%);
+}
 
 .hamburger-top, .hamburger-middle, .hamburger-bottom {
   display: block;
@@ -17,4 +28,22 @@
 
 .hamburger-bottom{
   transform: translateY(14px);
+}
+
+.hero {
+  background-image: url('./images/bg-intro-desktop.svg');
+  background-repeat: no-repeat;
+  background-size: 1100px;
+  background-position: top -200px right -300px;
+}
+
+.mockup {
+  width: 650px;
+}
+
+
+@media screen and (width<=480px){
+  .hero {
+    background-image: url('./images/bg-intro-mobile.svg');
+  }
 }
