@@ -12,7 +12,7 @@ import Link from "next/link";
 
 const Footer = () => {
   return (
-    <footer className="bg-blue flex flex-col items-center text-white text-center gap-10 py-10 md:flex-row md:px-40">
+    <footer className="bg-blue flex flex-col items-center text-white text-center gap-10 py-10 md:flex-row md:px-24 lg:px-40">
       <div className="flex flex-col gap-8">
         <div>
           <Image src={logo} alt="" />
@@ -28,7 +28,7 @@ const Footer = () => {
           <FaInstagram />
         </div>
       </div>
-      <div className="md:flex md:text-left md:gap-20 md:ml-24">
+      <div className="md:flex md:text-left md:gap-12 lg:gap-20 md:ml-6 lg:ml-24">
         <ul className="leading-10 [&>*:hover]:text-green">
           <li>
             <Link href="#">About Us</Link>

@@ -6,7 +6,7 @@ import iconOnboarding from "../images/icon-onboarding.svg";
 
 const Features = () => {
   return (
-    <section className="features bg-whiteSmoke bg-opacity-90 px-12 py-24 text-center text-gray md:text-left md:px-40">
+    <section className="features bg-whiteSmoke bg-opacity-90 px-12 py-24 text-center text-gray md:text-left md:px-24 lg:px-40">
       <div className="mb-12">
         <h2 className="text-3xl text-blue font-normal w-64 mx-auto pb-5 md:mx-0 md:w-full md:text-4xl">
           Why choose Easybank?
@@ -16,7 +16,7 @@ const Features = () => {
           hub. Control your finances like never before.
         </p>
       </div>
-      <div className="flex flex-col gap-12 md:flex-row">
+      <div className="flex flex-col gap-12 md:grid md:grid-cols-2 lg:grid-cols-4">
         <article className="flex flex-col items-center gap-4 md:items-start">
           <div>
             <Image src={iconOnline} alt="" />

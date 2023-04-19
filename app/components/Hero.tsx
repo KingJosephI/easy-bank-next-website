@@ -3,7 +3,7 @@ import mockups from "../images/image-mockups.png";
 
 const Hero = () => {
   return (
-    <section className="hero flex flex-col-reverse bg-whiteSmoke bg-opacity-50 md:flex-row  px-auto md:px-40 md:py-40">
+    <section className="hero flex flex-col-reverse bg-whiteSmoke bg-opacity-50 px-12 md:flex-row  px-auto md:py-40 md:px-24 lg:px-40">
       <div className="flex flex-col gap-8 text-center md:text-left">
         <h1 className="self-center text-3xl w-80 text-blue md:self-start md:text-5xl md:w-96">
           Next generation digital banking
