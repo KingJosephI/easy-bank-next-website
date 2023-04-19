@@ -3,6 +3,8 @@
 // import imageCurrency from "../images/image-currency.jpg";
 // import imagePlane from "../images/image-plane.jpg";
 // import imageRestaurant from "../images/image-restaurant.jpg";
+"use client";
+
 import ArticleHeading from "./ArticleHeading";
 import ArticleList from "./ArticleList";
 

@@ -1,6 +1,7 @@
+"use client";
+
 import Image from "next/image";
 import logo from "../images/logo-footer.svg";
-// import iconTwitter from "../images/icon-twitter.svg";
 import {
   FaTwitter,
   FaPinterest,
